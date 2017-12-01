@@ -1,3 +1,14 @@
+/*
+Napisz program umożliwiający wyliczenie miesięcznej raty za zakupiony towar. Program ma otrzymywać na wejściu:
+-cenę towaru (np. 1000 zł, maksymalnie 50 000 zł)
+-liczbę rat (np. 12, maksymalnie 48 rat)
+W zależności od liczby rat program przypisuje oprocentowanie:
+-1-12 wynosi 3%
+-13-24 wynosi 6%
+-25-48 wynosi 10%
+i zwraca obliczoną ratę miesięczną.
+ */
+
 import java.util.Scanner;
 
 public class Zadanie1_6 {

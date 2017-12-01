@@ -1,3 +1,5 @@
+// Napisz program, który obliczy pole i objętość kuli o promieniu R (parametr wejściowy).
+
 import java.util.Scanner;
 
 public class Zadanie1_5 {

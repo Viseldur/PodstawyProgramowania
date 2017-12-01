@@ -1,3 +1,5 @@
+//Napisz program, który wyświetli N (parametr wejściowy) kolejnych liczb Fibonacciego.
+
 import java.util.Scanner;
 
 public class Zadanie1_8 {

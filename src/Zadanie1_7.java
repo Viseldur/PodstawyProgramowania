@@ -1,3 +1,10 @@
+/*
+Napisz program realizujący funkcje prostego kalkulatora, pozwalający na wykonanie operacji
+ dodawania, odejmowania, mnożenia i dzielenia na dwóch liczbach dziesiętnych.
+ Program ma identyfikować próbę wykonania działania innego niż 4 dopuszczalne i
+ informować o tym użytkownika.
+ */
+
 import java.util.Scanner;
 
 public class Zadanie1_7 {
