@@ -1,0 +1,93 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Zadanie2_1{
+    public static void main(String[] args){
+        List<String> lista = new ArrayList();   // ArrayList to klasa pozwalająca na przechowywanie obiektów
+        System.out.println("ArrayList");
+        lista.add("Bartek");
+        lista.add("Asia");
+        lista.add("Artur");
+        lista.add("Kasia");
+        lista.add("Krzyś");
+        lista.add("Piotr");
+        lista.add("Paweł");
+        lista.add("Genowefa");
+        lista.add("Włodek");
+        lista.add("Grażyna");
+        System.out.println("A");
+        System.out.println(lista);
+        System.out.println("B");
+        String a = lista.get(0);
+        String b = lista.get(1);
+        String c = lista.get(2);
+        String d = lista.get(7);
+        String e = lista.get(8);
+        String f = lista.get(9);
+        System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f);
+        lista.add(4, "Robert");
+        System.out.println("C");
+        System.out.println(lista);
+        lista.remove(0);
+        lista.remove(0);
+        lista.remove(0);
+        lista.remove(lista.size()-1);
+        lista.remove(lista.size()-1);
+        lista.remove(lista.size()-1);
+        System.out.println("D");
+        System.out.println(lista);
+        Collections.addAll(lista, "Basia", "Zosia", "Izolda", "Roman", "Mariusz", "Mateusz");
+        System.out.println("E");
+        System.out.println(lista);
+        System.out.println("F");
+        Collections.sort(lista);    // Sortowanie ArrayList
+        System.out.println(lista);
+        Collections.sort(lista, Collections.reverseOrder());
+        System.out.println(lista);
+        lista.clear();
+        List<String> lista2 = new LinkedList<>();
+        System.out.println("LinkedList");
+        lista2.add("Bartek");
+        lista2.add("Asia");
+        lista2.add("Artur");
+        lista2.add("Kasia");
+        lista2.add("Krzyś");
+        lista2.add("Piotr");
+        lista2.add("Paweł");
+        lista2.add("Genowefa");
+        lista2.add("Włodek");
+        lista2.add("Grażyna");
+        System.out.println("A");
+        System.out.println(lista2);
+        System.out.println("B");
+        a = lista2.get(0);
+        b = lista2.get(1);
+        c = lista2.get(2);
+        d = lista2.get(7);
+        e = lista2.get(8);
+        f = lista2.get(9);
+        System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f);
+        lista2.add(4, "Robert");
+        System.out.println("C");
+        System.out.println(lista2);
+        lista2.remove(0);
+        lista2.remove(0);
+        lista2.remove(0);
+        lista2.remove(lista2.size()-1);
+        lista2.remove(lista2.size()-1);
+        lista2.remove(lista2.size()-1);
+        System.out.println("D");
+        System.out.println(lista2);
+        Collections.addAll(lista2, "Basia", "Zosia", "Izolda", "Roman", "Mariusz", "Mateusz");
+        System.out.println("E");
+        System.out.println(lista2);
+        System.out.println("F");
+        Collections.sort(lista2);    // Sortowanie ArrayList
+        System.out.println(lista2);
+        Collections.sort(lista2, Collections.reverseOrder());
+        System.out.println(lista2);
+        lista2.clear();
+    }
+}
